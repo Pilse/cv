@@ -2,12 +2,39 @@ body
 {
     margin: 0px;
     text-align: center;
+    font-family: 'Merriweather', serif
+
 }
 h1
 {
-    width: 15%;
-    margin: 0 auto; /*same with 0 auto 0 auto*/
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin:50px auto 0 auto;
+    color: #66BFBF;
     
+}
+.subheading
+{
+    font-weight: normal;
+    font-size: 2rem;
+}
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+
+}
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a
+{
+    color: #11999E;
+    text-decoration: none;
+
 }
 .top-cloud
 {
@@ -27,19 +54,77 @@ h1
 {
     background-color: #E4F9F5;
     padding-top: 100px;
-    position: relative;
-    
+    position: relative;    
     
 }
 .middle-container
 {
-    height: 200px;
-    width: 200px;
-    background-color: red;
+    padding:20px;
 }
 .bottom-container
 {
-    height: 200px;
-    width: 200px;
-    background-color: blue;
+    padding:40px;
+    background-color: #66BFBF;
+    color: #EAF6F6;
+}
+.skill-web
+{
+    width:25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-ROS
+{
+    width:25%;
+    float: right;
+    margin-left: 30px;
+}
+.skill-row
+{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+.btn
+{
+    width: 300px;
+    height: 100px;
+    padding:10px 30px 10px 30px;
+    background-color: #66BFBF;
+    color: white;
+    border-radius: 40px;
+}
+.btn:hover
+{
+    background-color:#11999E ;
+}
+.Gitlink
+{
+    margin-right: 20px;
+}
+hr
+{
+    border-style: none;
+    border-top:rgba(128, 128, 128, 0.589) dotted;
+    border-width: 8px;
+    width: 6%;
+   
+    
+
+}
+.profile
+{
+    margin-bottom: 100px;
+}
+.skills
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact-me
+{
+    margin-top:100px;
+    margin-bottom: 100px;
 }
